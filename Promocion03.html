@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Promoción Especial</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/stylePromos.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script language="JavaScript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(window).load(function () {
+    $(".disparadorPopup").click(function(){
+       $('.hover_fondo').show();
+    });
+    $('.hover_fondo').click(function(){
+        $('.hover_fondo').hide();
+    });
+    $('.popupBotonCerrar').click(function(){
+        $('.hover_fondo').hide();
+    });
+});
+</script>
+</head>
+<body>
+	<header>
+		<img src="imagenes/banner.jpg" class="LogoPrin">
+			<ul class="menu">
+  			<li><a  href="index.html">Inicio</a></li>
+  			<li><a  href="MenuPrincipal.html">Menú</a></li>
+  			<li><a  href="contacto.html">Contacto</a></li>
+  			<li><a  href="sobrenosotros.html">Sobre Nosotros</a></li>
+			</ul>
+	</header>
+	<br>
+	<section>
+		<img class="center" src="imagenes/promos/Especial.png" alt="Promoción regular">
+<center>
+	<a class="disparadorPopup">¡Clic aquí para ver las restricciones!</a>
+</center>
+<div class="hover_fondo">
+    <span class="helper"></span>
+    <div>
+        <div class="popupBotonCerrar">X</div>
+        <p>Restricciones<br/>
+        	Máximo de consumo $15<br>
+        	Promoción válida al presentar tu DUI<br>
+        </p>
+    </div>
+</div>
+	</section>
+	
+	<footer class="footer">
+		<ul>
+			<li><a href="http://www.facebook.com" target="_blank"><img src="imagenes/facebook.png"></a></li>
+			<li><a href="http://www.instagram.com" target="_blank"><img src="imagenes/instagram.png"></a></li>
+			<li><a href="http://www.whatsapp.com" target="_blank"><img src="imagenes/whatsapp.png">	</a></li>
+			<li><a href="mapa.html" target="_blank">Mapa del sitio</a></li>
+		</ul>
+		<a href="Diseñadores.html">Derechos reservados © 2019<br>
+		Desarrollado por</a>
+	</footer>
+</body>
+</html>

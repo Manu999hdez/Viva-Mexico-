@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+
+}
+body{
+	background-color: #45ad90;
+
+}
+.title{
+	font-size: 30px;
+}
+.subtitle{
+	font-size: 15px;
+}
+
+header{
+	font-family: 'Raleway', sans-serif;
+	background-color: #ffa936;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+.LogoPrin{
+
+width: 100%;
+height: 250px;
+}
+.menu {
+  list-style-type: none;
+  padding-left: 40%;
+    padding-right:  25%;
+  height: auto;
+  overflow: hidden;
+  background-color: #5247a5;
+}
+
+li {
+  float: left;
+   
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 25px;
+  font-size: 15px;
+}
+
+li a:hover:not(.active) {
+  background-color: #ffa936;
+  color: black;
+  height: 25px;
+  font-size: 16px;
+}
+
+.footer a:hover:not(.active) {
+  background-color: #ffa936;
+  color: black;
+  height: auto;
+  font-size: 16px;
+}
+.footer a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: auto;
+  font-size: 15px;
+}
+.active {
+  background-color: #6DA34D;
+  font-size: 16px;
+}
+.content{
+	background-color: white;
+  float: right;
+}
+.footer ul{
+  height: 100px;
+
+    list-style-type: none;
+  height: auto;
+  overflow: hidden;
+  background-color: #5247a5;
+}
+
+
+
+footer p{
+  float: left;
+  color: white;
+}

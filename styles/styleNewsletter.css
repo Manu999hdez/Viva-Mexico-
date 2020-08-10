@@ -1,0 +1,56 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+button[type="submit"]  
+/* Or better yet try giving an ID or class if possible*/
+{
+ border: 0;
+ background: #ffa936;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ box-shadow: none;
+ border-radius: 0px;
+ color: black;
+ font-size: 1.1em;
+}
+      .padre {
+  background: #45ad90;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hijo {
+  background: #E8EAED;
+  width: 70%;
+  -webkit-box-shadow: 6px 10px 36px -10px rgba(0,0,0,0.79);
+-moz-box-shadow: 6px 10px 36px -10px rgba(0,0,0,0.79);
+box-shadow: 6px 10px 36px -10px rgba(0,0,0,0.79);
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+.centered{
+  text-align:center;
+}
+
+.long{
+  width: 85%;
+  font-size: 1.1em;
+}
+.long td{
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  .short td{
+    width: 5%;
+    padding:10px;
+    font-size: 1.1em;
+  }

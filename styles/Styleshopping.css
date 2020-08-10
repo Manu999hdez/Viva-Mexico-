@@ -1,0 +1,26 @@
+#tabla{
+	width: 80%;
+	padding: 10px;
+	font-size: 15px;
+	margin-left: 10%;
+	margin-right: 15%;
+}
+#tabla tr:last-child{
+	font-size: 20px;
+}
+#tabla tr:last-child td:last-child{
+	color: red;
+	font-weight: bolder;
+}
+#back{
+	margin-left: 10%;
+}
+#comprar{
+	margin-left: 50%;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: #45ad90;
+	color: white;
+	border: none;
+	padding: 5px;
+}

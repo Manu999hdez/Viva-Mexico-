@@ -1,0 +1,58 @@
+#new{
+			color: #ffa936;
+			  font-weight: bolder;
+  font-size: 40px;
+		}
+		.ubicacion{
+  padding-top: 25px;
+}
+
+.newsletter{
+	width: 49.5%;
+	height: auto;
+	text-align: center;
+}
+.contacto{
+	width: 49.5%;
+	height: auto;
+	text-align: center;
+}
+
+.icono{
+  margin-top: 25px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:243px;width:263px;
+  float: left;
+  padding-left: 200px;
+}
+.texto{
+  float: right;
+  text-align: center;
+  margin-right: 200px;
+}
+#Ubicacion{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #45ad90;
+}
+#mapa,#pinatas{
+  margin-left: 100px;
+}
+#pinatas :hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;}
+    #contacto{
+    	font-weight: bolder;
+  font-size: 40px;
+    	color: #5247a5;
+    }
+    .mySlides{
+      width:70%; margin-left: 225px; height:auto;
+    }

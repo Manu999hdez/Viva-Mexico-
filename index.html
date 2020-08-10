@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Viva Mexico</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/styleIndex.css">
+
+</head>
+<body>
+	<header>
+		<img src="imagenes/banner.jpg" class="LogoPrin">
+		
+			<ul class="menu">
+  			<li><a  href="index.html">Inicio</a></li>
+  			<li><a  href="MenuPrincipal.html">Menú</a></li>
+  			<li><a  href="contacto.html">Contacto</a></li>
+              <li><a  href="sobre_nosotros.html">Sobre nosotros</a></li>
+			</ul>
+		
+	</header>
+			<br>
+	<section class="content" style="text-align: center;">
+	<img class="mySlides" src="imagenes/index/abierto.png" >
+  <a href="Promocion03.html"><img class="mySlides" src="imagenes/promos/Especial.png" ></a>
+  <img class="mySlides" src="imagenes/index/sabores.png">
+  <a href="Promocion01.html"><img class="mySlides" src="imagenes/promos/Regular.png"></a>
+  <a href="Promocion02.html"><img class="mySlides" src="imagenes/promos/Semanal.png"></a>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 7500);    
+}
+</script>
+<br>
+	</section>
+	<br>
+		<div>
+			<section class="contacto" style="float: right;">
+		<div class="texto">
+			<a href="contacto.html"><img class="icono" src="imagenes/index/phone.png"></a> 
+			<a href="contacto.html"><p id="contacto">Contacto</p></a>
+		<p>¿Dudas? ¿Sugerecias? ¡Estamos abiertos!</p><br>
+		</div>
+			<a href="contacto.html">
+			<img id="imagenpinatas"src="imagenes/index/waiter.jpg" style="width: 500px; height: 350px; margin-bottom: 25px; ">
+		</a>
+	</section>	
+		<section class="newsletter" >
+		
+			<a href="Newsletter.html"><img class="icono" src="imagenes/index/newsletter.png"></a>
+			<a href="Newsletter.html"><p id="new">Newsletter</p></a>
+		<p>Suscríbete a nuestro newsletter para enterarte de promociones <br>y eventos exclusivos</p>
+		<a href="Newsletter.html"><img id="imagenpinatas"src="imagenes/index/newsletter.jpg" style="width: 500px; height: 350px; margin-bottom: 25px; "></a>
+	</section>
+		</div>
+		
+	
+		<br>
+<section class="ubicacion">
+		<div class="texto">
+			<img class="icono" src="imagenes/index/map-location.png">
+			<p id="Ubicacion">Ubicación</p>
+		<p>Local N°250, Centro comercial El Paseo, Paseo General Escalón,<br>Colonia Escalón, San Salvador</p>
+		<p>Tel: +(503) 2525-5196</p>
+		<p>Horario: Martes a Jueves, de 11:00AM a 3:00PM</p>
+		<p>			Viernes a Domingo, de 11:00AM a 9:00PM</p>
+		</div>
+		<br><br>
+		<div id="mapa">
+			<div style="overflow:hidden;width: 500px;position: relative;"><iframe width="400" height="300" src="https://maps.google.com/maps?width=500&amp;height=440&amp;hl=en&amp;q=centro%20comercial%20el%20paseo+(Nuestra%20ubicaci%C3%B3n)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;"></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br><br><br>
+		</div>		
+	</section>
+	<footer class="footer">
+		<ul>
+			<li><a href="http://www.facebook.com" target="_blank"><img src="imagenes/facebook.png"></a></li>
+			<li><a href="http://www.instagram.com" target="_blank"><img src="imagenes/instagram.png"></a></li>
+			<li><a href="http://www.whatsapp.com" target="_blank"><img src="imagenes/whatsapp.png">	</a></li>
+			<li><a href="mapa.html" target="_blank">Mapa del sitio</a></li>
+		</ul>
+		<a href="diseñadores.html">Derechos reservados © 2019<br>
+		Desarrollado por</a>
+		
+	</footer>
+</body>
+</html>

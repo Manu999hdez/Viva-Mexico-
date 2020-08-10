@@ -1,0 +1,14 @@
+-index
+	Carrusel:promociones(3 promociones y también una página para cada una)
+	Google Maps
+-Sobre Nosotros(del restaurante)
+	inventar historia
+-Menu
+	-entradas
+	-Platos fuertes	
+	-bebidas
+	-postres
+-NewsLetter
+-Contacto
+-Mapa del sitio
+-sobre nosostros (de nosotros)
